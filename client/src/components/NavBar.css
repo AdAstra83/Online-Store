@@ -1,0 +1,19 @@
+.navbar__navlink {
+    color: white;
+}
+
+.navbar__cart {
+    margin-left: auto;
+}
+
+.navbar__admin {
+    margin-left: 0.5rem;
+}
+
+.navbar__logout {
+    margin-left: 0.5rem;
+}
+
+.navbar__auth {
+    margin-left: 0.5rem;
+}

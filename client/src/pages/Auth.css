@@ -1,0 +1,25 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-card {
+    padding: 5%;
+    width: 600px;
+}
+
+.auth-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control {
+    margin-top: 3%;
+}
+
+.auth-column{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}

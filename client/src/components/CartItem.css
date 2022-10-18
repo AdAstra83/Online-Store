@@ -1,0 +1,44 @@
+.item-card {
+    display: grid;
+    grid-template-columns: 2fr repeat(3, 3fr) 1fr;
+    column-gap: 10px;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid lightgray;
+}
+
+.item-card img {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    width: 130px;
+    height: 90px;
+}
+
+.item-card__name {
+    grid-column-start: 2;
+    display: flex;
+    align-items: center;
+}
+
+.item-card__quantity {
+    grid-column-start: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-cart__price {
+    grid-column-start: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-cart__delete {
+    grid-column-start: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}

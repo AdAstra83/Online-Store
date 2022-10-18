@@ -1,0 +1,19 @@
+.admin-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-type {
+    margin-top: 4%;
+    padding: 2;
+}
+
+.add-brand {
+    margin-top: 4%;
+    padding: 2;
+}
+
+.add-device {
+    margin-top: 4%;
+    padding: 2;
+}

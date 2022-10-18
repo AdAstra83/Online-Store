@@ -1,0 +1,10 @@
+.brand-row {
+    display:flex;
+    margin-top: 0.5rem;
+    padding: 1rem;
+}
+
+.brand-row__card {
+    padding: 1rem;
+    cursor: pointer;
+}

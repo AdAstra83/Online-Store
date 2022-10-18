@@ -1,0 +1,54 @@
+.device-col {
+    margin-top: 1rem;
+}
+
+.device-card {
+    width: 200px;
+    cursor: pointer;
+    border:lightgray;
+}
+
+.device-image {
+    width: 200px;
+    height: 150px;
+}
+
+.device-item-name {
+    margin-top: 0.25rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: black;
+    opacity: 75%;
+}
+
+.device-rating {
+    display: flex;
+    align-items: center;
+}
+
+.item-img-rating {
+    width: 17px;
+    height: 17px;
+}
+
+.device-name__shop {
+    line-height: 1.5em;
+    height: 3em;
+}
+
+.cart-price {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.cart-price Button {
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
